@@ -11,9 +11,7 @@ Paint pixels. Own coordinates. Each claim is a real Soroban transaction with you
 | | |
 |---|---|
 | **Frontend** | `https://pixelstake.vercel.app` _(update after deploy)_ |
-| **GitHub Repo** | `https://github.com/YOUR_USERNAME/pixelstake` |
-| **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CONTRACT_ID_HERE` |
-| **Proof Transaction** | `https://stellar.expert/explorer/testnet/tx/TX_HASH_HERE` |
+| **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CCKJSHHKQSYPYL3ADT75634JBUZHDCP5BFX2J4ZBSPYQWFL3NQGELA4G` |
 
 ---
 
