@@ -10,7 +10,7 @@ Paint pixels. Own coordinates. Each claim is a real Soroban transaction with you
 
 | | |
 |---|---|
-| **Frontend** | `https://pixelstake.vercel.app` _(update after deploy)_ |
+| **Frontend** | `https://pixelstake-nine.vercel.app/` |
 | **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CCKJSHHKQSYPYL3ADT75634JBUZHDCP5BFX2J4ZBSPYQWFL3NQGELA4G` |
 
 ---
