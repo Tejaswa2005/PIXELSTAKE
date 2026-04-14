@@ -10,8 +10,8 @@ Paint pixels. Own coordinates. Each claim is a real Soroban transaction with you
 
 | | |
 |---|---|
-| **Frontend** | `https://pixelstake-nine.vercel.app/` |
-| **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CCKJSHHKQSYPYL3ADT75634JBUZHDCP5BFX2J4ZBSPYQWFL3NQGELA4G` |
+| **Frontend** | `https://pixelstake-app.vercel.app` |
+| **Contract on Stellar Expert** | `https://stellar.expert/explorer/testnet/contract/CC2CS7OAQF7ESGFS4WFHOYM4CWRVVKTK6EA6AS2EAIE47R37EF4CK6ZN` |
 
 ---
 
@@ -25,6 +25,16 @@ Unlike traditional pixel board games (r/place, PixelMap), every single paint ope
 
 ---
 
+## Why This Project Matters
+
+This project turns a familiar real-world workflow into a verifiable on-chain primitive on Stellar: transparent state transitions, user-authenticated actions, and deterministic outcomes.
+
+## Architecture
+
+- **Smart Contract Layer**: Soroban contract enforces business rules, authorization, and state transitions.
+- **Client Layer**: React + Vite frontend handles wallet UX, transaction composition, and real-time status views.
+- **Wallet/Auth Layer**: Freighter signs every state-changing action so operations are attributable and non-repudiable.
+- **Infra Layer**: Stellar Testnet + Soroban RPC for execution; Vercel for frontend hosting.
 ## Contract Functions
 
 ```rust
@@ -67,4 +77,6 @@ chmod +x scripts/deploy.sh && ./scripts/deploy.sh
 # Run frontend
 cd frontend && npm install && npm run dev
 ```
+
+
 
